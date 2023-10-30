@@ -6,6 +6,17 @@ You will also get a lot of opportunities to collaborate with others, inside and 
 
 ***DISCLAMER*** You don't need to know everything below. Essentially, being able to perform first-principle calculations (mostly DFT) is enough to conduct a research in this group. Although, the advanced topics are highly recommended if you want to go above and beyond, particularly in this age of digitalization and the rise of big data and ML. Also, it is more elegant to work more efficiently by having automated workflow/pipeline in your projects.
 
+
+## How to use this guide
+
+Essential stuffs are on the main page here.
+
+For the advanced topics, you can find them in the respective folders.
+- `coding`: coding skills
+- `quantum_machine_learning`: quantum-chemical machine learning
+- `AQC`: automated quantum-chemical calculations
+
+
 ## General research topics 
 
 ### 1. Homogenous catalytic reactions:
