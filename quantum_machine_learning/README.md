@@ -1,60 +1,3 @@
-# Guide for modern computational chemistry for Computational Chemistry Lab
-
-
-## General research topics 
-
-### 1. Homogenous catalytic reactions:
-- Mechanistic study of catalytic reactions: to reveal the free energy profile   
-- Electronic structure elucidation: to rationalize the reactivity and selectivity
-- Catalyst design and substrate scope
-    - virtual screening over a library of catalysts or substrates
-    - machine learning 
-    - exploration of chemical compound space 
-
-### 2. Photochemical and photophysical properties
-Mostly collaboration with experimentalists to validate their experimental results and to provide a theoretical explanation.
-
-
-## Typical Quantum-Chemical Calculations
-
-- Geometry optimization
-- Frequency calculation
-- Single point energy calculation
-- Transition state search
-    - saddle point optimization
-    - QST2/QST3
-    - IRC calculation
-- TD-DFT calculation
-- NBO analysis
-- Energy decomposition analysis
-
-## Essential Skills and Knowledge
-
-### Theory stuff
-1. Basic theoretical background behind the electronic structure methods and able to apply a right method to a specific problem
-    - Hartree-Fock theory
-    - Density functional theory
-    - Post-HF methods
-        - Moller-Plesset perturbation theory (MP)
-        - Coupled cluster theory (CC)
-        - Configuration interaction theory (CI)
-        - Complete active space self-consistent field theory (CASSCF)
-        - Complete active space second-order perturbation theory (CASPT2)
-    - basis set
-
-2. Theoretical background and ability to apply electronic wavefunction analysis methods
-    - Natural bond orbital (NBO) analysis
-    - Energy decomposition analysis (EDA)
-    - and many more (please refer to [Multiwfn](http://sobereva.com/multiwfn/))])
-
-3. Chemistry
-    - organic chemistry: structure and reactivity
-    - organometallic chemistry
-    - catalysis
-
-
-
-
 ## Quantum-chemical machine learning (QML)
 
 
@@ -71,6 +14,18 @@ Mostly collaboration with experimentalists to validate their experimental result
     - molecular descriptors
     - molecular fingerprints
     - molecular similarity
+
+3. Quantum machine learning
+    - representing molecules 
+        - properties for molecular representation: unique, invariant, computationally efficient, and differentiable
+        - text-based: SMILES, SELFIES, InChI
+        - molecular graph
+        - molecular descriptors
+        - molecular fingerprints
+        - electronic-structure-based (using 3D information)
+    - machine learning
+    - deep learning
+    
 
 ### Practical stuffs
 1. Coding skills (refer to above)
