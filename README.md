@@ -2,9 +2,9 @@
 
 Welcome to the Compchem@MU! You will be working under Prof. Panida for here on. Trust me, she is a kind-soul and you will not find yourself under a better supervisor. 
 
-You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japanese, under the Sakura exchange program and others.
+You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japaneses, under the Sakura exchange program and others. So if you are a degerate weeb like myself, again, there is no better advisor than her.
 
-***DISCLAMER*** You don't need to know everything below. Essentially, being able to perform first-principle calculations (mostly DFT) is enough to conduct a research in this group. Although, the advanced topics are highly recommended if you want to go above and beyond, particularly in this age of digitalization and the rise of big data and ML. Also, it is more elegant to work more efficiently by having automated workflow/pipeline in your projects.
+***DISCLAMER*** You don't need to know everything below. Essentially, being able to perform first-principle calculations (mostly DFT) is enough to conduct a research in this group. Although, the advanced topics are highly recommended if you want to go above and beyond, **particularly knowing how to code to automate your routine tasks**. In this age of digitalization and the rise of big data and ML, you will find these advanced topics creeping into your realm of study. Also, it is just more elegant to work more efficiently by having automated workflow/pipeline in your projects.
 
 
 ## How to use this guide
@@ -72,6 +72,8 @@ Mostly collaboration with experimentalists to validate their experimental result
 
 5. Chemoinformatics (optional, advanced topic, see `quantum_machine_learning` folder for more detail)
 
+6. Chemical design (optional, advanced topic, see `chem_design` folder for more detail)
+
 
 ### Practical stuff 
 
@@ -100,3 +102,17 @@ Mostly collaboration with experimentalists to validate their experimental result
 
 5. Coding skills (optional, see `coding` folder)
 
+6. Presentation skills
+    - Sadly, people would rarely care about your work, so you need to steal their attention.
+    - please use LaTex more [Overleaf](https://www.overleaf.com/), better for collaboration, more elegant and all. Nowadays, it has become much easier also. (Well, except you are working with the experimentalists)
+    - able to make attention-grabbing figures
+        - [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/)
+        - [Inkscape](https://inkscape.org/) or others
+        - [Blender](https://www.blender.org/)
+
+## Resource
+
+### Quantum-chemical calculations
+- [Computational Chemistry from Laptop to HPC](https://kthpanor.github.io/echem/docs/title.html)
+- [Best-Practice DFT Protocols for Basic Molecular Computational Chemistry](https://onlinelibrary.wiley.com/doi/full/10.1002/ange.202205735)
+- [Perspective: Fifty years of density-functional theory in chemical physics](https://pubs.aip.org/aip/jcp/article/140/18/18A301/149389/Perspective-Fifty-years-of-density-functional)
