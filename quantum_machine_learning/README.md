@@ -99,3 +99,4 @@ You can also learn from QML tutorial in which there are both practical (code) an
 ### Additional stuffs
 
 1. [Chemoinfomatics tutorial](https://github.com/PatWalters/practical_cheminformatics_tutorials)
+2. [Al4Chem](https://github.com/schwallergroup/ai4chem_course), a course by Prof. Philippe Schwaller, in which you can find cool AI stuffs in chemistry.
