@@ -1,5 +1,10 @@
 # Guide for modern computational chemistry for Computational Chemistry Lab
 
+Welcome to the Compchem@MU! You will be working under Prof. Panida for here on. Trust me, she is a kind-soul and you will not find yourself under a better supervisor. 
+
+You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japanese, under the Sakura exchange program and others.
+
+***DISCLAMER*** You don't need to know everything below. Essentially, being able to perform first-principle calculations (mostly DFT) is enough to conduct a research in this group. Although, the advanced topics are highly recommended if you want to go above and beyond, particularly in this age of digitalization and the rise of big data and ML. Also, it is more elegant to work more efficiently by having automated workflow/pipeline in your projects.
 
 ## General research topics 
 
@@ -52,17 +57,10 @@ Mostly collaboration with experimentalists to validate their experimental result
     - organometallic chemistry
     - catalysis
 
-4. Data analysis
-    - statistics
-    - data visualization
-    - machine learning
-    - deep learning
+4. Data science (optional, advanced topic, see `quantum_machine_learning` folder for more detail)
 
-5. Chemoinformatics 
-    - text representation of molecules: **SMILES**, SELFIES, InChI
-    - molecular descriptors
-    - molecular fingerprints
-    - molecular similarity
+5. Chemoinformatics (optional, advanced topic, see `quantum_machine_learning` folder for more detail)
+
 
 ### Practical stuff 
 
@@ -77,70 +75,17 @@ Mostly collaboration with experimentalists to validate their experimental result
 1. Basic Linux commands
  
 2. Quantum-chemical calculations, particularly
-    - Gaussian16/09 
-    - ORCA
-    - GAMESS
+    - **Gaussian16/09** (most used, household program here) 
+    - ORCA (used sometimes, CASSCF, CASPT2, complicate spin stuffs)
+    - GAMESS (for NEDA)
 3. Visualization of molecular structures and orbitals
+    - ArgusLab/Molden
     - GaussView 
     - Avogadro
     - VMD
     - Multiwfn
     - Jimp2
-4. (optional) Pre- and post-processing of quantum-chemical calculations
+4. Pre- and post-processing of quantum-chemical calculations (optional, see `AQC` folder)
 
-5. (optinal) Coding skills
-    - Code editors
-        - Vim
-        - Emacs
-        - Notepad++
-        - Visual Studio Code
-        - PyCharm
-    - Bash
-    - Python (perhaps all you ever need)
-        - Pip and conda
-        - Numpy
-        - Pandas
-        - Matplotlib
-        - Seaborn
-        - Scikit-learn
-        - SciPy
-        - (advanced) PyTorch, TensorFlow, Jax
-    - Git and GitHub for source code control
-        - You should be able to use Git and GitHub to manage your source code and collaborate with others for reproducible and clean research.
-        - and able to find stuffs (a lot of cool program as well as programming tutorial in Github) and install a package from GitHub.
-    - (Advanced) Cython (C/C++ in Python)
-    - (Advanced) Julia
+5. Coding skills (optional, see `coding` folder)
 
-### Quantum-chemical machine learning (QML)
-
-1. Coding skills (refer to above)
-2. Basis ML
-    - Supervised learning/ Unsupervised learning/ Reinforcement learning
-    - Regression/ Classification
-    - Overfitting/ Underfitting
-    - Feature engineering (feature selection, feature extraction): see [Molecular representation](#molrep) below
-    - Data preprocessing (data cleaning, data normalization, data augmentation)
-    - Data visualization (PCA, t-SNE, UMAP)
-    - Algorithms
-        - Linear regression
-        - Logistic regression
-        - Ensemble models: Random forest, XGBoost
-        - Kernel methods: SVM, Gaussian process, Kernel ridge regression (KRR)
-        - Neural network: MLP, CNN, RNN, LSTM, Transformer
-        - Clustering: K-means, DBSCAN
-        - Support vector machine
-        - Dimensionality reduction: PCA, t-SNE, UMAP
-    - Model evaluation: 
-        - Cross-validation or Leave-one-out cross-validation
-        - Metrics: R2, RMSE, MAE, accuracy, precision, recall, F1-score, ROC-AUC, PR-AUC, etc.   
-    - Hyperparameter tuning (model selection)
-
-(P.S. Most of the time, if you ever get to do QML, you will find yourself using molecular representation as below with Ensemble models and KRR)
-
-#### Molecular representation
-- Structure-based: SMILES, SELFIES, one-hot encoding, 1D/2D fingerprints
-- Electronic structure-based (in QML/DScribe): 
-    - Coulomb matrix (CM)
-    - Bag of Bonds (BoB)
-    - Smooth Overlap of Atomic Positions (SOAP)
-    - SLATM ()
