@@ -2,9 +2,9 @@
 
 Welcome to the Compchem@MU! You will be working under Prof. Panida for here on. Trust me, she is a kind-soul and you will not find yourself under a better supervisor. 
 
-You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japaneses, under the Sakura exchange program and others. So if you are a degerate weeb like myself, again, there is no better advisor than her.
+You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japaneses, under the Sakura exchange program and others. So if you are a degenerate weeb like myself, again, there is no better advisor than her.
 
-***DISCLAMER*** You don't need to know everything below. Essentially, being able to perform first-principle calculations (mostly DFT) is enough to conduct a research in this group. Although, the advanced topics are highly recommended if you want to go above and beyond, **particularly knowing how to code to automate your routine tasks**. In this age of digitalization and the rise of big data and ML, you will find these advanced topics creeping into your realm of study. Also, it is just more elegant to work more efficiently by having automated workflow/pipeline in your projects.
+***DISCLAIMER*** You don't need to know everything below. Essentially, being able to perform first-principle calculations (mostly DFT) is enough to conduct a research in this group. Although, the advanced topics are highly recommended if you want to go above and beyond, **particularly knowing how to code to automate your routine tasks**. In this age of digitalization and the rise of big data and ML, you will find these advanced topics creeping into your realm of study. Also, it is just more elegant to work more efficiently by having automated workflow/pipeline in your projects.
 
 
 ## How to use this guide
@@ -13,9 +13,11 @@ Essential stuffs are on the main page here.
 
 For the advanced topics, you can find them in the respective folders.
 - `coding`: coding skills
+- `AQC`: automated quantum-chemical calculations
 - `quantum_machine_learning`: quantum-chemical machine learning
 - `chem_design`: chemical design
-- `AQC`: automated quantum-chemical calculations
+
+If you may still find coding irrelevance to your work, **at least check out the `AQC` folder**. *It will save you a lot of time and effort in the long run.*
 
 
 ## General research topics 
@@ -48,7 +50,8 @@ Mostly collaboration with experimentalists to validate their experimental result
 - Energy decomposition analysis
 
 **Semiempirical Tight Binding (xTB)**
-With xTB, you can obtain a better guess geometry for optimization at DFT later, possible making the calculation more efficient. You can also do various stuffs with xTB, such as
+
+With xTB, you can obtain a better guess geometry for optimization at DFT later, possible making the calculation more efficient. You can also do various stuffs with xTB. Check out [xTB tutorial](https://xtb-docs.readthedocs.io/en/latest/index.html) to learn more and `AQC` folder for more examples of usage.
 
 
 ## Essential Skills and Knowledge
@@ -102,12 +105,12 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
     - ORCA (used sometimes, CASSCF, CASPT2, complicate spin stuffs)
     - GAMESS (for NEDA)
 3. Visualization of molecular structures and orbitals
-    - ArgusLab/Molden
-    - GaussView 
+    - ArgusLab/Molden (╯ ͠° ͟ʖ ͡°)╯┻━┻
+    - GaussView: ( ͡° ͜ʖ ͡°)
     - Avogadro
-    - VMD
+    - VMD: most elegant and most beautiful
     - Multiwfn
-    - Jimp2
+    - Jimp2: maybe easiest to use but not so beautiful
 4. Pre- and post-processing of quantum-chemical calculations (optional, see `AQC` folder)
 
 5. Coding skills (optional, see `coding` folder)
@@ -122,6 +125,13 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
 
 ## Resource
 
+
+Our lab has a look of books, check out
+
+- [Introduction to Computational Chemistry](https://www.wiley.com/en-us/Introduction+to+Computational+Chemistry%2C+2nd+Edition-p-9780470058046): classic
+- Exploring Chemistry with Electronic Structure Methods: some guides on how to use g09/g16
+- there are as well chemistry books like organometallics and catalysis, check them out if you are interested
+
 ### Quantum-chemical calculations
 - [Computational Chemistry from Laptop to HPC](https://kthpanor.github.io/echem/docs/title.html)
 - [Best-Practice DFT Protocols for Basic Molecular Computational Chemistry](https://onlinelibrary.wiley.com/doi/full/10.1002/ange.202205735)
@@ -135,5 +145,7 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
 - [Multiwfn](http://sobereva.com/multiwfn/): read the manual which contains both theory and practical stuffs
 - Read NBO tutorial [here](https://nbo6.chem.wisc.edu/nboman.pdf)
 - [What is NBO analysis and how is it useful?](https://www.tandfonline.com/doi/full/10.1080/0144235X.2016.1192262?casa_token=14eEfX6HHpoAAAAA%3AchCGBsbKa7NuSj0FhYhZLysHmXKS6ZT198SNbBKBJTQDPRuS4DEEsygq2g8iRCOx0mSTWEOlON3w)
-- [](https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23060?casa_token=ad9kysiure4AAAAA:PcD8PKSpylgmrf4ZJB8XHwj7SR_pU9LsrLKx-C_X_TwewsRl6cCAZs8T9u5MbFO5taO0mNb0YcGp-hM)
+- [Natural bond orbital analysis: A critical overview of relationships to alternative bonding perspectives](https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23060?casa_token=ad9kysiure4AAAAA:PcD8PKSpylgmrf4ZJB8XHwj7SR_pU9LsrLKx-C_X_TwewsRl6cCAZs8T9u5MbFO5taO0mNb0YcGp-hM)
+- [Natural bond orbital methods](https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.51?_gl=1*pf4vn6*_gcl_au*NjcxODk4NTkwLjE2OTYyMjI4MTM.)
+- [The Chemical Bond: Fundamental Aspects of Chemical Bonding](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527664696)
 - [The Quantum Theory of Atoms in Molecules: From Solid State to DNA and Drug Design](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527610709)
