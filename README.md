@@ -14,6 +14,7 @@ Essential stuffs are on the main page here.
 For the advanced topics, you can find them in the respective folders.
 - `coding`: coding skills
 - `quantum_machine_learning`: quantum-chemical machine learning
+- `chem_design`: chemical design
 - `AQC`: automated quantum-chemical calculations
 
 
@@ -33,6 +34,8 @@ Mostly collaboration with experimentalists to validate their experimental result
 
 ## Typical Quantum-Chemical Calculations
 
+
+**DFT calculation**
 - Geometry optimization
 - Frequency calculation
 - Single point energy calculation
@@ -43,6 +46,10 @@ Mostly collaboration with experimentalists to validate their experimental result
 - TD-DFT calculation
 - NBO analysis
 - Energy decomposition analysis
+
+**Semiempirical Tight Binding (xTB)**
+With xTB, you can obtain a better guess geometry for optimization at DFT later, possible making the calculation more efficient. You can also do various stuffs with xTB, such as
+
 
 ## Essential Skills and Knowledge
 
@@ -56,11 +63,14 @@ Mostly collaboration with experimentalists to validate their experimental result
         - Configuration interaction theory (CI)
         - Complete active space self-consistent field theory (CASSCF)
         - Complete active space second-order perturbation theory (CASPT2)
-    - basis set
+    - Basis set
+    - Semiempirical methods
+    - Solvation models
 
 2. Theoretical background and ability to apply electronic wavefunction analysis methods
     - Natural bond orbital (NBO) analysis
     - Energy decomposition analysis (EDA)
+    - Quantum theory of atoms in molecules (QTAIM)
     - and many more (please refer to [Multiwfn](http://sobereva.com/multiwfn/))])
 
 3. Chemistry
@@ -116,3 +126,14 @@ Mostly collaboration with experimentalists to validate their experimental result
 - [Computational Chemistry from Laptop to HPC](https://kthpanor.github.io/echem/docs/title.html)
 - [Best-Practice DFT Protocols for Basic Molecular Computational Chemistry](https://onlinelibrary.wiley.com/doi/full/10.1002/ange.202205735)
 - [Perspective: Fifty years of density-functional theory in chemical physics](https://pubs.aip.org/aip/jcp/article/140/18/18A301/149389/Perspective-Fifty-years-of-density-functional)
+- [Jacob’s ladder of density functional approximations for the exchange-correlation energy](https://pubs.aip.org/aip/acp/article-abstract/577/1/1/573973/Jacob-s-ladder-of-density-functional?redirectedFrom=fulltext)
+- [A Chemist's Guide to Density Functional Theory](https://onlinelibrary.wiley.com/doi/book/10.1002/3527600043)
+- Modern Quantum Chemistry
+
+
+### Electronic wavefunction analysis methods
+- [Multiwfn](http://sobereva.com/multiwfn/): read the manual which contains both theory and practical stuffs
+- Read NBO tutorial [here](https://nbo6.chem.wisc.edu/nboman.pdf)
+- [What is NBO analysis and how is it useful?](https://www.tandfonline.com/doi/full/10.1080/0144235X.2016.1192262?casa_token=14eEfX6HHpoAAAAA%3AchCGBsbKa7NuSj0FhYhZLysHmXKS6ZT198SNbBKBJTQDPRuS4DEEsygq2g8iRCOx0mSTWEOlON3w)
+- [](https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.23060?casa_token=ad9kysiure4AAAAA:PcD8PKSpylgmrf4ZJB8XHwj7SR_pU9LsrLKx-C_X_TwewsRl6cCAZs8T9u5MbFO5taO0mNb0YcGp-hM)
+- [The Quantum Theory of Atoms in Molecules: From Solid State to DNA and Drug Design](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527610709)
