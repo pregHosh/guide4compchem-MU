@@ -1,8 +1,6 @@
 # Chemical design
 
-Although, our group is mostly dealing with `low-level` stuffs like mechanistic study and electronic structure elucidation. While these are indeed relevance in establishing the group-work for the higher stuffs later, I believe being able to extract design rules and come up with more superior catalysts can make your work more impactful.
-
-
+While our group primarily focuses on "low-level" tasks like mechanistic studies and electronic structure elucidation, it's important to recognize that these foundational efforts lay the groundwork for more advanced research. However, the ability to extract design rules and develop superior catalysts can significantly enhance the impact of your work. By applying these insights, we can advance our understanding of catalysis and contribute to the development of more effective catalysts, ultimately making a more significant contribution to the field. 
 
 
 ## Theory stuff
@@ -11,13 +9,15 @@ Although, our group is mostly dealing with `low-level` stuffs like mechanistic s
 ### Molecular Volcano Plot
 
 
-Molecular volcano plots have emerged as powerful tools for the study of homogeneous catalysis. They provide a graphical representation of the relationship between catalytic properties (activity and selectivity) and a chosen descriptor, typically the relative energy of an intermediate in the reaction mechanism.
+Molecular volcano plots 🌋 have emerged as powerful tools for the study of homogeneous catalysis. They provide a graphical representation of the relationship between catalytic properties (activity and selectivity) and a chosen descriptor, typically the relative energy of an intermediate in the reaction mechanism.
 
 
-Typically, determining catalytic properties requires computation of the entire free energy profile, involving numerous intermediate and transition states, exhaustive and time-consuming task!
+Typically, determining catalytic properties requires computation of the entire free energy profile, involving numerous intermediate and transition states, exhaustive and time-consuming task! 😫
 
 
 Molecular volcano plot is a step beyond the that. Instead of the free energy profile, you just need to determine one or two descriptors to determine the catalytic properties, simplifying the determination of catalytic performance, making it possible to conduct high-throughput screening of catalysts. Moreover, it offers a more comprehensive understanding of catalytic properties than just inspecting bunch of energy profiles.
+
+As mentioned above, the chosen descriptor is typically an energetic one, namely the relative energy of the intermediate in the reaction mechanism. However, extracting chemical insights from such descriptors can be challenging. To address this, you can potentially correlate non-energetic descriptors with their energetic counterparts, possibly using multivariate linear regression from which the chemical insight can be extracted 🧪✨. These **non-energetic descriptors** can be computed with tools like [morfeus](https://digital-chemistry-laboratory.github.io/morfeus/), [RDKit](https://www.rdkit.org/), or [kallistro](https://ehjc.gitbook.io/kallisto/). Check out my paper how it is done (っ＾▿＾)💨.
 
 I personally have also combined the molecular volcano plot with microkinetic modelling (MKM) to build ***MKM volcano plot***. A coolest and possibly the ultimate form of volcano plot. Read my paper XD (っ＾▿＾)💨.
 
@@ -26,9 +26,13 @@ I personally have also combined the molecular volcano plot with microkinetic mod
 
 You can optimize your chemical structure towards target properties with genetic algorithm.
 
+Read more here..
+- [NaviCatGA](https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cmtd.202100107)
+
 ### Machine Learning
 
 check out [quantum_machine_learning](../quantum_machine_learning/README.md) for more details.
+
 
 
 ### Good papers to read to be inspired
@@ -47,4 +51,12 @@ and you should be able to find more from here.....
 
 Check out LCMD's NaviCat platform  (platform for catalyst discovery) which consists of...
 
-- [NaviCatGA](https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cmtd.202100107): 
+- [NaviCatGA](https://github.com/lcmd-epfl/NaviCatGA): Genetic algorithm for catalyst/chemical optimization
+- [Volcanic](https://github.com/lcmd-epfl/volcanic): A program to automatically generate volcano plots for homogeneous catalysis.
+- [mikimo](https://github.com/lcmd-epfl/mikimo) (by Me ヽ༼◥▶ل͜◀◤༽ﾉ ): A program to automatically perform microkinetic modeling and generate microkinetic volcano plots for homogeneous catalysis reactions
+
+-------------------------------
+Not in NaviCat platform but also useful
+- [cell2mol](https://github.com/lcmd-epfl/cell2mol): Program that interprets .cif files of molecular crystals and retrieves structural, connectivity and charge information of all molecules present in the unit cell.
+
+and check out those QML programs in the [QML](../quantum_machine_learning/README.md) folder as well.

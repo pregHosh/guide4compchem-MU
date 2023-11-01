@@ -17,13 +17,14 @@ and most of the time, just Python is more than enough.
     - PyCharm
 - Bash: For scripting and automation tasks, especially useful for working in a Unix/Linux environment.
 - Python: Python is a versatile, easy-to-learn language. (perhaps all you ever need)
-- Pip and Conda: Package managers for Python.
     - NumPy: For numerical computations.
     - Pandas: For data manipulation and analysis.
     - Matplotlib and Seaborn: Libraries for data visualization.
     - Scikit-learn: For machine learning and data mining.
     - SciPy: For scientific and technical computing.
     - (Advanced) PyTorch, TensorFlow, and Jax: Deep learning frameworks.
+- Pip and Conda: Package managers for Python.
+
 
 - Git and GitHub for source code control
     - Learn to use Git for version control and GitHub for collaboration. This is essential for managing your source code and ensuring reproducibility in your research.

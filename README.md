@@ -1,10 +1,10 @@
 # Guide for modern computational chemistry for Computational Chemistry Lab
 
-Welcome to the Compchem@MU! You will be working under Prof. Panida for here on. Trust me, she is a kind-soul and you will not find yourself under a better supervisor. 
+Welcome to the Compchem@MU! You will be working under Prof. Panida for here on. Trust me, she is a kind-soul and you will not find yourself under a better supervisor 😊. 
 
-You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japaneses, under the Sakura exchange program and others. So if you are a degenerate weeb like myself, again, there is no better advisor than her.
+You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japaneses, under the Sakura exchange program 🌸 and others. So if you are a degenerate weeb like myself, again, there is no better advisor than her.
 
-***DISCLAIMER*** You don't need to know everything below. Essentially, being able to perform first-principle calculations (mostly DFT) is enough to conduct a research in this group. Although, the advanced topics are highly recommended if you want to go above and beyond, **particularly knowing how to code to automate your routine tasks**. In this age of digitalization and the rise of big data and ML, you will find these advanced topics creeping into your realm of study. Also, it is just more elegant to work more efficiently by having automated workflow/pipeline in your projects.
+***DISCLAIMER*** You don't need to be familiar with everything mentioned below. Proficiency in first-principle calculations, especially DFT, is sufficient for conducting research in our group. However, I highly recommend diving into advanced topics, especially coding skills to automate routine tasks. In today's age of digitalization and the increasing importance of big data and machine learning, you'll find these advanced skills becoming increasingly relevant to your work. Besides, it is just more elegant to work more efficiently by having automated workflow/pipeline in your projects. 💻📈🤖
 
 
 ## How to use this guide
@@ -12,13 +12,15 @@ You will also get a lot of opportunities to collaborate with others, inside and 
 Essential stuffs are on the main page here.
 
 For the advanced topics, you can find them in the respective folders.
-- `coding`: coding skills
-- `AQC`: automated quantum-chemical calculations
-- `quantum_machine_learning`: quantum-chemical machine learning
-- `chem_design`: chemical design
+- [`coding`](/coding/README.md): coding skills
+- [`AQC`](/AQC/README.md): automated quantum-chemical calculations
+- [`quantum_machine_learning`](/quantum_machine_learning/README.md): quantum-chemical machine learning
+- [`chem_design`](/chem_design/README.md): chemical design
 
-If you may still find coding irrelevance to your work, **at least check out the `AQC` folder**. *It will save you a lot of time and effort in the long run.*
+If you may still find coding irrelevance to your work, **at least check out the [`AQC`](/AQC/README.md) folder**. *It will save you a lot of time and effort in the long run.*
 
+
+If you have any questions, feel free to reach out to me via thanapat142@gmail.com or thanapat.worakul@epfl.ch
 
 ## General research topics 
 
@@ -36,7 +38,6 @@ Mostly collaboration with experimentalists to validate their experimental result
 
 ## Typical Quantum-Chemical Calculations
 
-
 **DFT calculation**
 - Geometry optimization
 - Frequency calculation
@@ -51,7 +52,7 @@ Mostly collaboration with experimentalists to validate their experimental result
 
 **Semiempirical Tight Binding (xTB)**
 
-With xTB, you can obtain a better guess geometry for optimization at DFT later, possible making the calculation more efficient. You can also do various stuffs with xTB. Check out [xTB tutorial](https://xtb-docs.readthedocs.io/en/latest/index.html) to learn more and `AQC` folder for more examples of usage.
+With xTB, you can obtain a better guess geometry for optimization at DFT later, possible making the calculation more efficient. You can also do various stuffs with xTB. Check out [xTB tutorial](https://xtb-docs.readthedocs.io/en/latest/index.html) to learn more and [`AQC`](/AQC/README.md) folder for more examples of usage.
 
 
 ## Essential Skills and Knowledge
@@ -74,26 +75,26 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
     - Natural bond orbital (NBO) analysis
     - Energy decomposition analysis (EDA)
     - Quantum theory of atoms in molecules (QTAIM)
-    - and many more (please refer to [Multiwfn](http://sobereva.com/multiwfn/))])
+    - and many more (please refer to [Multiwfn](http://sobereva.com/multiwfn/))
 
 3. Chemistry
     - organic chemistry: structure and reactivity
     - organometallic chemistry
     - catalysis
 
-4. Data science (optional, advanced topic, see `quantum_machine_learning` folder for more detail)
+4. Data science (optional, advanced topic, see [`quantum_machine_learning`](/quantum_machine_learning/README.md) folder for more detail)
 
-5. Chemoinformatics (optional, advanced topic, see `quantum_machine_learning` folder for more detail)
+5. Chemoinformatics (optional, advanced topic, see [`quantum_machine_learning`](/quantum_machine_learning/README.md) folder for more detail)
 
-6. Chemical design (optional, advanced topic, see `chem_design` folder for more detail)
+6. Chemical design (optional, advanced topic, see [`chem_design`](/chem_design/README.md) folder for more detail)
 
 
 ### Practical stuff 
 
 0. OS (that you will probably use)
-    - Linux: 
+    - Linux: 🐧
         - WSL (Windows Subsystem for Linux)
-        - Ubuntu (If you hate Windows)
+        - Ubuntu (If you hate Windows) 
         - CentOS (our servers)
     - Windows (preferably Windows 11)
 
@@ -101,15 +102,19 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
 1. Basic Linux commands
  
 2. Quantum-chemical calculations, particularly
+    - [xTB](https://xtb-docs.readthedocs.io/) (semiempirical, free)
     - **Gaussian16/09** (most used, household program here) 
     - ORCA (used sometimes, CASSCF, CASPT2, complicate spin stuffs)
     - GAMESS (for NEDA)
-3. Visualization of molecular structures and orbitals
+    - [pySCF](https://pyscf.org/) (python-based, free)
+3. Analysis and Visualization of molecular structures and orbitals
+    - [Multiwfn](http://sobereva.com/multiwfn/) [extremely powerful, and versatile. **MUST LEARN**]
+    - [NBO6](https://nbo6.chem.wisc.edu/) [**MUST LEARN** as boss uses it a lot to rationalize the reactivity and selectivity]
+    --------------------------------------
     - ArgusLab/Molden (╯ ͠° ͟ʖ ͡°)╯┻━┻
     - GaussView: ( ͡° ͜ʖ ͡°)
     - Avogadro
-    - VMD: most elegant and most beautiful
-    - Multiwfn
+    - ***VMD***: most elegant and most beautiful
     - Jimp2: maybe easiest to use but not so beautiful
 4. Pre- and post-processing of quantum-chemical calculations (optional, see `AQC` folder)
 
@@ -124,7 +129,6 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
         - [Blender](https://www.blender.org/)
 
 ## Resource
-
 
 Our lab has a look of books, check out
 

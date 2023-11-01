@@ -1,5 +1,8 @@
 ## Quantum-chemical machine learning (QML)
 
+If you find yourselves doing ML in this group or that you are just interested in ML topics that align with the boss's research, you may want to check this folder out. It is cool stuffs anyway.
+
+To gain a comprehensive overview of Quantum Machine Learning (QML) in alignment with Prof. Panida's research interests, I recommend reading this paper [MUST READ](https://pubs.rsc.org/en/content/articlehtml/2021/sc/d0sc04896h) by Prof. Kjell at ETHZ.
 
 ## Some theory stuffs
 
@@ -53,8 +56,8 @@
 (P.S. Most of the time, if you ever get to do QML, you will find yourself using molecular representation as below with Ensemble models and KRR)
 
 #### Molecular representation
-- molecular descriptor: (e.g., molecular weight, number of atoms, number of bonds, number of rings, etc. )
-- Structure-based: SMILES, SELFIES, one-hot encoding, 1D/2D fingerprints
+- molecular descriptor: (e.g., molecular weight, buried volume, Sterimol parameters, etc.)
+- Structure-based: **SMILES**, SELFIES, one-hot encoding, 1D/2D fingerprints
 - Electronic structure-based (in QML/DScribe): 
     - Coulomb matrix (CM)
     - Bag of Bonds (BoB)
@@ -78,7 +81,7 @@ To read more about molecular representation
 
 1. Check out Coursera (particularly, Andrew Ng), Youtube, and so on yourselves.
 2. Very comprehensive ML (no need to learn all, just pick what you need in your project) [here](https://github.com/ujjwalkarn/Machine-Learning-Tutorials)
-3. By P'Rangsiman (or Dr.Rangsiman already), in Thai, very detailed also, focus more on quantum chem [here](https://rangsimanketkaew.github.io/ml-qm-book?fbclid=IwAR0seoGzS3hDWuF0SzzQ1q-Zcqu1VIJFb4MEVwE-nlWbPQjgiF1e2Y0fYmk)
+3. By P'Rangsiman (or Dr.Rangsiman already), in Thai, very detailed also [here](https://rangsimanketkaew.github.io/ml-qm-book?fbclid=IwAR0seoGzS3hDWuF0SzzQ1q-Zcqu1VIJFb4MEVwE-nlWbPQjgiF1e2Y0fYmk)
 4. Deep learning [here](https://uvadlc-notebooks.readthedocs.io/)
 
 ### QML
@@ -100,3 +103,20 @@ You can also learn from QML tutorial in which there are both practical (code) an
 
 1. [Chemoinfomatics tutorial](https://github.com/PatWalters/practical_cheminformatics_tutorials)
 2. [Al4Chem](https://github.com/schwallergroup/ai4chem_course), a course by Prof. Philippe Schwaller, in which you can find cool AI stuffs in chemistry.
+
+
+## Some useful tools
+
+0. [RDKit](https://www.rdkit.org/): for chemoinformatics and machine learning on molecules, a powerhouse
+1. [OpenBabel](http://openbabel.org/wiki/Main_Page): for dealing with chemical formats
+
+--------------------------------
+2. [morfeus](https://digital-chemistry-laboratory.github.io/morfeus/): molecular features from 3D structures with a focus on steric descriptors. 
+3. [kallistro](https://ehjc.gitbook.io/kallisto/): molecular featurizer and modeller
+4. [QML](https://www.qmlcode.org/): toolkit for representation learning of properties of molecules and solids.
+5. [QStack](https://github.com/lcmd-epfl/Q-stack): Stack of codes for dedicated pre- and post-processing tasks for Quantum Machine Learning (QML)
+6. [DScribe](https://singroup.github.io/dscribe/latest/): library for various descriptors for machine learning of materials and molecules
+------------------------------
+7. [DeepChem](https://deepchem.io/): for machine learning and deep learning on molecular and quantum datasets. 
+8. [torchdrug](https://torchdrug.ai/): machine learning platform designed for drug discovery
+9. [DGL-LifeSci](https://lifesci.dgl.ai/): for applying graph neural networks to various tasks in chemistry and biology
