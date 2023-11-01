@@ -2,7 +2,7 @@
 
 Welcome to the Compchem@MU! You will be working under Prof. Panida for here on. Trust me, she is a kind-soul and you will not find yourself under a better supervisor 😊. 
 
-You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japaneses, under the Sakura exchange program 🌸 and others. So if you are a degenerate weeb like myself, again, there is no better advisor than her.
+You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japaneses, under the Sakura exchange program 🌸 and others. So if you adore JP stuffs like me ⸂⸂⸜(രᴗര๑)⸝⸃⸃, again, there is no better advisor than her.
 
 ***DISCLAIMER*** You don't need to be familiar with everything mentioned below. Proficiency in first-principle calculations, especially DFT, is sufficient for conducting research in our group. However, I highly recommend diving into advanced topics, especially coding skills to automate routine tasks. In today's age of digitalization and the increasing importance of big data and machine learning, you'll find these advanced skills becoming increasingly relevant to your work. Besides, it is just more elegant to work more efficiently by having automated workflow/pipeline in your projects. 💻📈🤖
 
@@ -121,7 +121,7 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
 5. Coding skills (optional, see `coding` folder)
 
 6. Presentation skills
-    - Sadly, people would rarely care about your work, so you need to steal their attention.
+    - Sadly, people would rarely care about your work, so you need to captivate their attention.
     - please use LaTex more [Overleaf](https://www.overleaf.com/), better for collaboration, more elegant and all. Nowadays, it has become much easier also. (Well, except you are working with the experimentalists)
     - able to make attention-grabbing figures
         - [matplotlib](https://matplotlib.org/) and [seaborn](https://seaborn.pydata.org/)
@@ -130,7 +130,7 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
 
 ## Resource
 
-Our lab has a look of books, check out
+Our lab has a lot of books, check out
 
 - [Introduction to Computational Chemistry](https://www.wiley.com/en-us/Introduction+to+Computational+Chemistry%2C+2nd+Edition-p-9780470058046): classic
 - Exploring Chemistry with Electronic Structure Methods: some guides on how to use g09/g16
