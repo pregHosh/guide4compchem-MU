@@ -153,3 +153,13 @@ Our lab has a look of books, check out
 - [Natural bond orbital methods](https://wires.onlinelibrary.wiley.com/doi/abs/10.1002/wcms.51?_gl=1*pf4vn6*_gcl_au*NjcxODk4NTkwLjE2OTYyMjI4MTM.)
 - [The Chemical Bond: Fundamental Aspects of Chemical Bonding](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527664696)
 - [The Quantum Theory of Atoms in Molecules: From Solid State to DNA and Drug Design](https://onlinelibrary.wiley.com/doi/book/10.1002/9783527610709)
+
+### Free real estate
+
+- [Materials Cloud Archive](https://archive.materialscloud.org/): a repository for computational materials science
+- [Github](https://github.com/): please start to use it
+- [zenodo](https://zenodo.org/): for archiving your data/code and get others
+- [The Cambridge Structural Database | CCDC](https://www.ccdc.cam.ac.uk/): for mining and extracting crystallographic data
+- Scihub ( ͡° ͜ʖ ͡°)
+- [ChemRxiv](https://chemrxiv.org/), [Arxiv](https://arxiv.org/): latest, hot, frontier stuffs, also publish your preprint here.
+- [Journal of Cheminformatics](https://jcheminf.biomedcentral.com/), [ACS Central Science](https://pubs.acs.org/journal/acscii), [Chemical Science](https://www.rsc.org/journals-books-databases/about-journals/chemical-science/), [Communications Chemistry](https://www.nature.com/commschem/)
