@@ -75,6 +75,20 @@ To read more about molecular representation
 - [Quantum machine learning using atom-in-molecule-based fragments selected on the fly (SLATM)](https://www.nature.com/articles/s41557-020-0527-z)
 - [SPAHM: the spectrum of approximated Hamiltonian matrices representations](https://pubs.rsc.org/en/content/articlelanding/2022/dd/d1dd00050k)
 
+
+#### Visualization of chemical space
+
+You can reduce the dimensionality of your molecular representations (above) to 2D or 3D for visualizing your chemical space using various algorithms. Some common methods include:
+
+- Principal Component Analysis (PCA)
+- t-Distributed Stochastic Neighbor Embedding (t-SNE)
+- [Uniform Manifold Approximation and Projection (UMAP)](https://umap-learn.readthedocs.io/en/latest/)
+
+Check these work out:
+1. [Accelerated dinuclear palladium catalyst identification through unsupervised machine learning](https://www.science.org/doi/full/10.1126/science.abj0999)
+2. [OSCAR: an extensive repository of chemically and functionally diverse organocatalysts](https://pubs.rsc.org/en/content/articlelanding/2022/sc/d2sc04251g)
+3. [Exploring Chemical Reaction Space with Reaction Difference Fingerprints and Parametric t-SNE](https://pubs.acs.org/doi/10.1021/acsomega.1c04778)
+
 ## Resource
 
 ### Machine learning
@@ -116,7 +130,10 @@ You can also learn from QML tutorial in which there are both practical (code) an
 4. [QML](https://www.qmlcode.org/): toolkit for representation learning of properties of molecules and solids.
 5. [QStack](https://github.com/lcmd-epfl/Q-stack): Stack of codes for dedicated pre- and post-processing tasks for Quantum Machine Learning (QML)
 6. [DScribe](https://singroup.github.io/dscribe/latest/): library for various descriptors for machine learning of materials and molecules
+-----------------------------
+7. [UMAP](https://umap-learn.readthedocs.io/en/latest/)
+8. [Chemiscope](https://chemiscope.org/): interactive structure-property relationship explorer
 ------------------------------
-7. [DeepChem](https://deepchem.io/): for machine learning and deep learning on molecular and quantum datasets. 
-8. [torchdrug](https://torchdrug.ai/): machine learning platform designed for drug discovery
-9. [DGL-LifeSci](https://lifesci.dgl.ai/): for applying graph neural networks to various tasks in chemistry and biology
+9. [DeepChem](https://deepchem.io/): for machine learning and deep learning on molecular and quantum datasets. 
+10. [torchdrug](https://torchdrug.ai/): machine learning platform designed for drug discovery
+11. [DGL-LifeSci](https://lifesci.dgl.ai/): for applying graph neural networks to various tasks in chemistry and biology
