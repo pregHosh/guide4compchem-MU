@@ -175,26 +175,26 @@ Mostly Ni-NHC catalysts
     - Computational Design of Transition Metal Catalysts for Hydrodefluorination of Trifluoromethylarenes using Hydrosilanes: ***COMING OUT SOON***
 
 2. C-H bond
-    - [Insights into the Regioselectivity of Hydroheteroarylation of Allylbenzene with Pyridine Catalyzed by Ni/AlMe<sub>3</sub> with N‑Heterocyclic Carbene: The Concerted Hydrogen Transfer Mechanism]()
+    - [Insights into the Regioselectivity of Hydroheteroarylation of Allylbenzene with Pyridine Catalyzed by Ni/AlMe<sub>3</sub> with N‑Heterocyclic Carbene: The Concerted Hydrogen Transfer Mechanism](https://pubs.acs.org/doi/10.1021/acs.joc.0c01449)
 
 3. C-O bond
-    - Mechanism of Ni N-heterocyclic carbene catalys for C–O bond hydrogenolysis of diphenyl ether: a density functional study
-    - Density Functional Study of Nickel N‑Heterocyclic Carbene Catalyzed C−O Bond Hydrogenolysis of Methyl Phenyl Ether: The Concerted β‑H Transfer Mechanism
-    - Aryl C–O oxidative addition of phenol derivatives to nickel supported by an N-heterocyclic carbene via a Ni(0) five-centered complex
+    - [Mechanism of Ni N-heterocyclic carbene catalys for C–O bond hydrogenolysis of diphenyl ether: a density functional study](https://pubs.rsc.org/en/content/articlelanding/2014/dt/c4dt02374a)
+    - [Density Functional Study of Nickel N‑Heterocyclic Carbene Catalyzed C−O Bond Hydrogenolysis of Methyl Phenyl Ether: The Concerted β‑H Transfer Mechanism](https://pubs.acs.org/doi/abs/10.1021/acscatal.5b02058)
+    - [Aryl C–O oxidative addition of phenol derivatives to nickel supported by an N-heterocyclic carbene via a Ni(0) five-centered complex](https://pubs.rsc.org/en/content/articlelanding/2019/dt/c9dt00455f)
 
 4. H-H bond
-    - Mechanisms for dehydrogenation and hydrogenation of N-heterocycles using PNP-pincer-supported iron catalysts: a density functional study
-    - Insights into H<sub>2</sub> Activation and Styrene Hydrogenation by Nickel−Borane and Nickel−Alane Bifunctional Catalysts
+    - [Mechanisms for dehydrogenation and hydrogenation of N-heterocycles using PNP-pincer-supported iron catalysts: a density functional study](https://pubs.rsc.org/en/content/articlelanding/2016/dt/c6dt02431a)
+    - [Insights into H<sub>2</sub> Activation and Styrene Hydrogenation by Nickel−Borane and Nickel−Alane Bifunctional Catalysts](https://pubs.acs.org/doi/abs/10.1021/acs.organomet.1c00620)
 
 5. CO<sub>2</sub> activation
-    - Mechanistic insights into HCO<sub>2</sub>H dehydrogenation and CO<sub>2</sub> hydrogenation catalyzed by Ir(Cp*) containing tetrahydroxy bipyrimidine ligand: the role of sodium and proton shuttle
-    - Understanding the reactivity of geminal P/B and P/Al frustrated Lewis pairs in CO<sub>2</sub> addition and H<sub>2</sub> activation
+    - [Mechanistic insights into HCO<sub>2</sub>H dehydrogenation and CO<sub>2</sub> hydrogenation catalyzed by Ir(Cp*) containing tetrahydroxy bipyrimidine ligand: the role of sodium and proton shuttle](https://pubs.rsc.org/en/content/articlelanding/2018/dt/c8dt03283a)
+    - [Understanding the reactivity of geminal P/B and P/Al frustrated Lewis pairs in CO<sub>2</sub> addition and H<sub>2</sub> activation](https://pubs.rsc.org/en/content/articlelanding/2021/dt/d1dt01535d)
 
 6. O<sub>2</sub> activation
 
-    - Proton-Coupled Electron Transfer and Adduct Configuration Are Important for C4a-Hydroperoxyflavin Formation and Stabilization in Flavoenzyme
+    - [Proton-Coupled Electron Transfer and Adduct Configuration Are Important for C4a-Hydroperoxyflavin Formation and Stabilization in Flavoenzyme](https://pubs.acs.org/doi/10.1021/ja4088055)
 
-    - Mechanism of Oxygen Activation in a Flavin-Dependent Monooxygenase: A Nearly Barrierless Formation of C4a-Hydroperoxyflavin via Proton-Coupled Electron Transfer
+    - [Mechanism of Oxygen Activation in a Flavin-Dependent Monooxygenase: A Nearly Barrierless Formation of C4a-Hydroperoxyflavin via Proton-Coupled Electron Transfer](https://pubs.acs.org/doi/10.1021/jacs.5b04328)
 
 
 #### Catalyst design
