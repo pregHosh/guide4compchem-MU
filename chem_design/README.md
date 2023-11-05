@@ -11,6 +11,12 @@ While our group primarily focuses on "low-level" tasks like mechanistic studies 
 
 Molecular volcano plots 🌋 have emerged as powerful tools for the study of homogeneous catalysis. They provide a graphical representation of the relationship between catalytic properties (activity and selectivity) and a chosen descriptor, typically the relative energy of an intermediate in the reaction mechanism.
 
+<!-- ![VP](../images/vp.png){width=200px height=150px style="border: 1px solid black;"} -->
+
+<div style="text-align: center;">
+  <img src="../images/vp.png" width="800" >
+</div>
+
 
 Typically, determining catalytic properties requires computation of the entire free energy profile, involving numerous intermediate and transition states, exhaustive and time-consuming task! 😫
 
@@ -19,12 +25,23 @@ Molecular volcano plot is a step beyond the that. Instead of the free energy pro
 
 As mentioned above, the chosen descriptor is typically an energetic one, namely the relative energy of the intermediate in the reaction mechanism. However, extracting chemical insights from such descriptors can be challenging. To address this, you can potentially correlate non-energetic descriptors with their energetic counterparts, possibly using multivariate linear regression from which the chemical insight can be extracted 🧪✨. These **non-energetic descriptors** can be computed with tools like [morfeus](https://digital-chemistry-laboratory.github.io/morfeus/), [RDKit](https://www.rdkit.org/), or [kallistro](https://ehjc.gitbook.io/kallisto/). Check out my paper how it is done (っ＾▿＾)💨.
 
+<div style="text-align: center;">
+  <img src="../images/activity_map_iflp.png" width="280" >
+  <p>Activity map describing the TOF for uLP-catalyzed CO2 hydrogenation as a function of the B-N distance and their relative orientation. Both are geometrical descriptor variables. Read more here: 10.1002/anie.202202727)</p>
+</div>
+
+
 I personally have also combined the molecular volcano plot with microkinetic modelling (MKM) to build ***MKM volcano plot***. A coolest and possibly the ultimate form of volcano plot. Read my paper XD (っ＾▿＾)💨.
 
 
 ### Genetic Optimization
 
 You can optimize your chemical structure towards target properties with genetic algorithm.
+
+<div style="text-align: center;">
+  <img src="../images/navicatGA.jpg" width="700">
+  <p>Schematic catalyst optimization pipeline powered by NaviCatGA. Taken from 10.1002/cmtd.202100107.</p>
+</div>
 
 Read more here..
 - [NaviCatGA](https://chemistry-europe.onlinelibrary.wiley.com/doi/full/10.1002/cmtd.202100107)
@@ -49,7 +66,7 @@ and you should be able to find more from here.....
 
 ## Resource and Program
 
-Check out LCMD's NaviCat platform  (platform for catalyst discovery) which consists of...
+Check out [LCMD's NaviCat platform](https://github.com/lcmd-epfl/NaviCat)  (platform for catalyst discovery) which consists of...
 
 - [NaviCatGA](https://github.com/lcmd-epfl/NaviCatGA): Genetic algorithm for catalyst/chemical optimization
 - [Volcanic](https://github.com/lcmd-epfl/volcanic): A program to automatically generate volcano plots for homogeneous catalysis.
