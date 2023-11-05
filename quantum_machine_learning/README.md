@@ -56,8 +56,19 @@ To gain a comprehensive overview of Quantum Machine Learning (QML) in alignment 
 (P.S. Most of the time, if you ever get to do QML, you will find yourself using molecular representation as below with Ensemble models and KRR)
 
 #### Molecular representation
+
+
+Core idea is basically to translate raw chemical information into a vector of numbers that computer can understand and can then be used as input for machine learning models.
+
 - molecular descriptor: (e.g., molecular weight, buried volume, Sterimol parameters, etc.)
-- Structure-based: **SMILES**, SELFIES, one-hot encoding, 1D/2D fingerprints
+- Structure-based: [**SMILES**](https://www.daylight.com/dayhtml/doc/theory/theory.smiles.html), SELFIES, one-hot encoding, [1D/2D fingerprints](https://www.daylight.com/dayhtml/doc/theory/theory.finger.html)
+
+<div style="text-align: center;">
+  <img src="../images/struc_repr.png" width="800" >
+  <p>Taken from https://aspuru.substack.com/p/molecular-graph-representations-and</p>
+</div>
+
+
 - Electronic structure-based (in QML/DScribe): 
     - Coulomb matrix (CM)
     - Bag of Bonds (BoB)
@@ -65,8 +76,9 @@ To gain a comprehensive overview of Quantum Machine Learning (QML) in alignment 
     - Spectrum of London and Axillrod-Teller-Muto potential (SLATM) and the local (atomic) version of which (aSLATM)\
     - FCHL
 
-- Benchmark dataset
-    - QM9/QM7/QM7b
+- Molecular Representation Learning
+
+
 
 To read more about molecular representation
 - [Molecular representations for machine learning applications in chemistry](https://onlinelibrary.wiley.com/doi/10.1002/qua.26870#:~:text=A%20molecular%20representation%2C%20also%20known,chemical%20composition%20and%20atomic%20configuration.)
@@ -84,6 +96,11 @@ You can reduce the dimensionality of your molecular representations (above) to 2
 - t-Distributed Stochastic Neighbor Embedding (t-SNE)
 - [Uniform Manifold Approximation and Projection (UMAP)](https://umap-learn.readthedocs.io/en/latest/)
 
+<div style="text-align: center;">
+  <img src="../images/tSNE_map.png" width="300" >
+  <p>2D t-SNE map depicting chemical diversity of IFLP catalysts [Taken From 10.26434/chemrxiv-2023-09md (will probably change later)] </p>
+</div>
+
 Check these work out:
 1. [Accelerated dinuclear palladium catalyst identification through unsupervised machine learning](https://www.science.org/doi/full/10.1126/science.abj0999)
 2. [OSCAR: an extensive repository of chemically and functionally diverse organocatalysts](https://pubs.rsc.org/en/content/articlelanding/2022/sc/d2sc04251g)
@@ -99,7 +116,7 @@ Check these work out:
 4. Deep learning [here](https://uvadlc-notebooks.readthedocs.io/)
 
 ### QML
-LCMD at EPFL has an good tutorial to QML for beginner [here](https://github.com/lcmd-epfl/intro-to-qml) 
+LCMD at EPFL has a good tutorial to QML for beginner [here](https://github.com/lcmd-epfl/intro-to-qml) 
 
 You can also learn from QML tutorial in which there are both practical (code) and theory stuffs [here](https://www.qmlcode.org/tutorial.html)   
 
@@ -137,3 +154,11 @@ You can also learn from QML tutorial in which there are both practical (code) an
 9. [DeepChem](https://deepchem.io/): for machine learning and deep learning on molecular and quantum datasets. 
 10. [torchdrug](https://torchdrug.ai/): machine learning platform designed for drug discovery
 11. [DGL-LifeSci](https://lifesci.dgl.ai/): for applying graph neural networks to various tasks in chemistry and biology
+
+Benchmark dataset
+- QM9/QM7/QM7b
+- GDB
+- ChEMBL
+- PubChem
+- ZINC
+
