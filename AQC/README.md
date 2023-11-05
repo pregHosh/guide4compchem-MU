@@ -38,6 +38,11 @@ These should open up the possibility of cool stuffs you can do with your compute
 
 ### Workflow example 1: Virtual Screening
 
+<div style="text-align: center;">
+  <img src="../images/aqc_workflow_ex1.jpeg" width="800" >
+  <p>Taken from acscatal.0c00774</p>
+</div>
+
 1. Create a library of ligands, each represented as SMILES string.
 2. Add ligands to the Aarontools library by converting all SMILES to xyz files with OpenBabel.
 3. Prepare the template structures of intermediates and transition states whose ligands are to be replaced by those in the library.
@@ -63,3 +68,7 @@ Of course, you can adapt this workflow to study the substrate scope as well.
 
 1. Instead of performing PES scan with DFT, you can use xTB to find TS quicker (not always work but you can just try as it is computationally cheap to do anyway (~1-3 min)).
 2. With the saddle-point structure from the xTB PES scan, you can use it as a starting point for DFT TS optimization later.
+
+<div style="text-align: center;">
+  <img src="../images/aqc_workflow_ex2.png" width="650" >
+</div>
