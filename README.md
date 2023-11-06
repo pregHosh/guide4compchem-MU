@@ -1,5 +1,7 @@
 # Guide for newcomer and current members of Compchem@MU
 
+**🛠️🚧🚧 Under construction 🚧🚧🛠️**
+
 Welcome to the Compchem@MU! You will be working under Prof. Panida for here on. Trust me, she is a kind-soul and you will not find yourself under a better supervisor 😊. 
 
 You will also get a lot of opportunities to collaborate with others, inside and outside the university as she has a pretty good networking. Particularly, with the Japaneses, under the Sakura exchange program 🌸 and others. So if you adore JP stuffs like me ⸂⸂⸜(രᴗര๑)⸝⸃⸃, again, there is no better advisor than her.
