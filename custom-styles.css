@@ -1,0 +1,82 @@
+/* custom-styles.css */
+
+/* Set a background color */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the header */
+header {
+  background-color: #3498db;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Style the title */
+h1 {
+  font-size: 36px;
+}
+
+/* Style the navigation bar */
+.navbar {
+  background-color: #3498db;
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+}
+
+/* Style the navigation links */
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 18px;
+}
+
+/* Style the content area */
+.content {
+  margin: 20px;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style code blocks */
+pre {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border: 1px solid #ddd;
+  overflow: auto;
+}
+
+/* Style code within code blocks */
+code {
+  font-family: Monaco, monospace;
+  font-size: 14px;
+}
+
+/* Style links within the content */
+a {
+  color: #3498db;
+  text-decoration: none;
+}
+
+/* Style headings */
+h2, h3, h4 {
+  color: #333;
+}
+
+/* Style blockquotes */
+blockquote {
+  border-left: 5px solid #3498db;
+  padding-left: 10px;
+  margin: 10px 0;
+}
+
+/* Add additional styles as needed */
+
+

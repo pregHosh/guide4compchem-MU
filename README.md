@@ -1,4 +1,4 @@
-# Guide for modern computational chemistry for Computational Chemistry Lab
+# Guide for newcomer and current members of Compchem@MU
 
 Welcome to the Compchem@MU! You will be working under Prof. Panida for here on. Trust me, she is a kind-soul and you will not find yourself under a better supervisor 😊. 
 
