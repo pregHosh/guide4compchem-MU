@@ -110,7 +110,6 @@ With xTB, you can obtain a better guess geometry for optimization at DFT later, 
 3. Analysis and Visualization of molecular structures and orbitals
     - [Multiwfn](http://sobereva.com/multiwfn/) [extremely powerful, and versatile. **MUST LEARN**]
     - [NBO6](https://nbo6.chem.wisc.edu/) [**MUST LEARN** as boss uses it a lot to rationalize the reactivity and selectivity]
-    --------------------------------------
     - ArgusLab/Molden (╯ ͠° ͟ʖ ͡°)╯┻━┻
     - GaussView: ( ͡° ͜ʖ ͡°)
     - Avogadro
