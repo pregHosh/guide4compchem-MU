@@ -64,7 +64,7 @@ Core idea is basically to translate raw chemical information into a vector of nu
 - Structure-based: [**SMILES**](https://www.daylight.com/dayhtml/doc/theory/theory.smiles.html), SELFIES, one-hot encoding, [1D/2D fingerprints](https://www.daylight.com/dayhtml/doc/theory/theory.finger.html)
 
 <div style="text-align: center;">
-  <img src="../images/struc_repr.png" width="800" >
+  <img src="./images/struc_repr.png" width="800" >
   <p>Taken from https://aspuru.substack.com/p/molecular-graph-representations-and</p>
 </div>
 
@@ -97,7 +97,7 @@ You can reduce the dimensionality of your molecular representations (above) to 2
 - [Uniform Manifold Approximation and Projection (UMAP)](https://umap-learn.readthedocs.io/en/latest/)
 
 <div style="text-align: center;">
-  <img src="../images/tSNE_map.png" width="300" >
+  <img src="./images/tSNE_map.png" width="300" >
   <p>2D t-SNE map depicting chemical diversity of IFLP catalysts [Taken From 10.26434/chemrxiv-2023-09md (will probably change later)] </p>
 </div>
 

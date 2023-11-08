@@ -39,7 +39,7 @@ These should open up the possibility of cool stuffs you can do with your compute
 ### Workflow example 1: Virtual Screening
 
 <div style="text-align: center;">
-  <img src="../images/aqc_workflow_ex1.jpeg" width="800" >
+  <img src="./images/aqc_workflow_ex1.jpeg" width="800" >
   <p>Taken from acscatal.0c00774</p>
 </div>
 
@@ -70,5 +70,5 @@ Of course, you can adapt this workflow to study the substrate scope as well.
 2. With the saddle-point structure from the xTB PES scan, you can use it as a starting point for DFT TS optimization later.
 
 <div style="text-align: center;">
-  <img src="../images/aqc_workflow_ex2.png" width="650" >
+  <img src="./images/aqc_workflow_ex2.png" width="650" >
 </div>

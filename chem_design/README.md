@@ -13,7 +13,7 @@ Molecular volcano plots 🌋 have emerged as powerful tools for the study of hom
 
 
 <div style="text-align: center;">
-  <img src="../images/vp.png" width="800" >
+  <img src="./images/vp.png" width="800" >
 </div>
 
 
@@ -25,7 +25,7 @@ Molecular volcano plot is a step beyond the that. Instead of the free energy pro
 As mentioned above, the chosen descriptor is typically an energetic one, namely the relative energy of the intermediate in the reaction mechanism. However, extracting chemical insights from such descriptors can be challenging. To address this, you can potentially correlate non-energetic descriptors with their energetic counterparts, possibly using multivariate linear regression from which the chemical insight can be extracted 🧪✨. These **non-energetic descriptors** can be computed with tools like [morfeus](https://digital-chemistry-laboratory.github.io/morfeus/), [RDKit](https://www.rdkit.org/), or [kallistro](https://ehjc.gitbook.io/kallisto/). Check out my paper how it is done (っ＾▿＾)💨.
 
 <div style="text-align: center;">
-  <img src="../images/activity_map_iflp.png" width="280" >
+  <img src="./images/activity_map_iflp.png" width="280" >
   <p>Activity map describing the TOF for uLP-catalyzed CO2 hydrogenation as a function of the B-N distance and their relative orientation. Both are geometrical descriptor variables. Read more here: 10.1002/anie.202202727)</p>
 </div>
 
@@ -46,7 +46,7 @@ Read more about volcano plots here..
 You can optimize your chemical structure towards target properties with genetic algorithm.
 
 <div style="text-align: center;">
-  <img src="../images/navicatGA.jpg" width="700">
+  <img src="./images/navicatGA.jpg" width="700">
   <p>Schematic catalyst optimization pipeline powered by NaviCatGA. Taken from 10.1002/cmtd.202100107.</p>
 </div>
 
